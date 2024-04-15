@@ -2,6 +2,7 @@
 ### Build your first website in this free live series on Zoom
 
 #### Lesson 1
+- Watch full lecture [here](https://youtu.be/GI9FEnnFbZU?feature=shared)
 - Mock up website design in [Excalidraw](https://www.excalidraw.com/)
 - Learn what a code editor is
   - Take a tour of [VSCode](https://code.visualstudio.com/)
