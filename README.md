@@ -3,6 +3,7 @@
 
 #### Lesson 1
 - Watch full lecture [here](https://youtu.be/GI9FEnnFbZU?feature=shared)
+- View solution code [here]()
 - Mock up website design in [Excalidraw](https://www.excalidraw.com/)
 - Learn what a code editor is
   - Take a tour of [VSCode](https://code.visualstudio.com/)
@@ -10,3 +11,10 @@
 - Learn the basics of HTML structure and syntax
   - Review the basics of HTML, [here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 - Add a logo (image file) to the page
+
+#### Lesson 2
+- Watch full lecture [here](#)
+- View solution code [here](#)
+- Learn some more semantic HTML tags like main, section, article, and footer
+- Update the logo with an optimized version (cropped, resized, smaller filesize)
+- Add remaining sections to the page (main > section#about, section#portfolio, section#contact, and footer)
