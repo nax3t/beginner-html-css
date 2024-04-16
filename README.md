@@ -3,7 +3,7 @@
 
 #### Lesson 1
 - Watch full lecture [here](https://youtu.be/GI9FEnnFbZU?feature=shared)
-- View solution code [here]()
+- View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_1)
 - Mock up website design in [Excalidraw](https://www.excalidraw.com/)
 - Learn what a code editor is
   - Take a tour of [VSCode](https://code.visualstudio.com/)
@@ -13,8 +13,8 @@
 - Add a logo (image file) to the page
 
 #### Lesson 2
-- Watch full lecture [here](#)
-- View solution code [here](#)
+- Watch full lecture [here](https://youtu.be/KSqimyoYfYo)
+- View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_2)
 - Learn some more semantic HTML tags like main, section, article, and footer
 - Update the logo with an optimized version (cropped, resized, smaller filesize)
 - Add remaining sections to the page (main > section#about, section#portfolio, section#contact, and footer)
