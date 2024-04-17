@@ -22,6 +22,7 @@
 #### Lesson 3
 - Watch full lecture [here](#)
 - View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_3)
+- View CSS Tutorial [here](https://www.w3schools.com/Css/css_intro.asp)
 - Add style.css
 - Add link tag for style.css in index.html
 - Add id to header element.
