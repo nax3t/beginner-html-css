@@ -18,3 +18,19 @@
 - Learn some more semantic HTML tags like main, section, article, and footer
 - Update the logo with an optimized version (cropped, resized, smaller filesize)
 - Add remaining sections to the page (main > section#about, section#portfolio, section#contact, and footer)
+
+#### Lesson 3
+- Watch full lecture [here](#)
+- View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_3)
+- Add style.css
+- Add link tag for style.css in index.html
+- Add id to header element.
+- Image updates
+  - Create images folder
+  - Move logo to images folder
+  - Update img tag src attribute
+  - Move inline CSS from img tag to style.css
+  - Add hero image
+- Update About h2 text to "About Me"
+- Update age input to be an email input
+- Add textarea for message body

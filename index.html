@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <img src="logo.jpg" alt="Logo of a dog's head" width="100px" style="border-radius: 50%;">
+  <header id="header">
+    <img src="images/logo.jpg" alt="Logo of a dog's head">
     <h2>My Portfolio</h2>
   </header>
   <nav>
@@ -25,7 +26,7 @@
     </section>
 
     <section id="about">
-      <h2>About</h2>
+      <h2>About Me</h2>
       
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae, molestiae eveniet qui fugiat officiis pariatur aliquid, vel quia autem vero quaerat omnis impedit repellendus.</p>
 
@@ -54,11 +55,15 @@
         </p>
 
         <p>
-          <label>Age:
-            <input type="number" required>
+          <label>Email:
+            <input type="email" required>
           </label>
         </p>
 
+        <p>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" cols="50" rows="5" required></textarea>
+        </p>
         <p>
           <input type="submit">
         </p>
