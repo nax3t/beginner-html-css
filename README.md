@@ -1,4 +1,4 @@
-# Learn HTML, CSS, and JS from Scratch
+# Learn HTML and CSS from Scratch
 ### Build your first website in this free live series on Zoom
 
 #### Lesson 1
