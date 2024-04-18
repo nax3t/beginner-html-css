@@ -20,18 +20,11 @@
 - Add remaining sections to the page (main > section#about, section#portfolio, section#contact, and footer)
 
 #### Lesson 3a
-- Watch full lecture [here](#)
+- Watch full lecture [here](https://www.youtube.com/watch?v=XeY3j3UZVhA)
 - View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_3a)
 - View CSS Tutorial [here](https://www.w3schools.com/Css/css_intro.asp)
 - Add style.css
 - Add link tag for style.css in index.html
-- Add id to header element.
-- Image updates
-  - Create images folder
-  - Move logo to images folder
-  - Update img tag src attribute
-  - Move inline CSS from img tag to style.css
-  - Add hero image
-- Update About h2 text to "About Me"
-- Update age input to be an email input
-- Add textarea for message body
+- Add id to header element
+- Position header text around logo
+- Turn nav menu into a horizontal navigation bar
