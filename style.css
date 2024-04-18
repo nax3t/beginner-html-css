@@ -40,7 +40,7 @@ nav {
   background-color: #222;
   border-top: 1px solid #333;
   text-align: right;
-  padding-right: 20px;
+  padding-right: 100px;
 }
 
 nav li {
@@ -62,6 +62,37 @@ nav li a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* PORTFOLIO SECTION */
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.card img {
+  width: 100%;
+}
+
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  color: #222;
+  border: 1px solid #222;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.card a:hover {
+  background-color: #222;
+  color: #fff;
 }
 
 /* CONTACT SECTION */
