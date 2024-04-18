@@ -41,3 +41,5 @@
 - Update About h2 text to "About Me"
 - Update age input to be an email input
 - Add textarea for message body
+- Add cards to portfolio section
+- Update nav padding-right to align text with the rest of the page
