@@ -30,6 +30,8 @@
 - Turn nav menu into a horizontal navigation bar
 
 #### Lesson 3b
+- Watch full lecture [here](#)
+- View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_3b)
 - Image updates
   - Create images folder
   - Move logo to images folder
