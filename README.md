@@ -19,9 +19,9 @@
 - Update the logo with an optimized version (cropped, resized, smaller filesize)
 - Add remaining sections to the page (main > section#about, section#portfolio, section#contact, and footer)
 
-#### Lesson 3a
+#### Lesson 3
 - Watch full lecture [here](https://www.youtube.com/watch?v=XeY3j3UZVhA)
-- View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_3a)
+- View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_3)
 - View CSS Tutorial [here](https://www.w3schools.com/Css/css_intro.asp)
 - Add style.css
 - Add link tag for style.css in index.html
