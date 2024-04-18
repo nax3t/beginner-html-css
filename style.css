@@ -1,9 +1,8 @@
-
 /* SHARED AND GLOBAL STYLES */
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,13 +18,14 @@ h1, h2, p {
 /* HEADER AND NAVIGATION SECTIONS */
 #header {
   font-size: 16px;
-  color: white;
   background-color: #222;
+  color: #fff;
   padding: 20px 100px;
 }
 
 #header img {
   border-radius: 50%;
+  width: 100px;
 }
 
 #header > h2 {
@@ -39,7 +39,6 @@ h1, h2, p {
 nav {
   background-color: #222;
   border-top: 1px solid #333;
-  color: white;
   text-align: right;
   padding-right: 20px;
 }
@@ -97,4 +96,9 @@ input[type='submit']:hover {
 
 #footer nav li {
   padding: 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
 }
