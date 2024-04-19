@@ -9,6 +9,10 @@
 </head>
 
 <body>
+  <div id="success-message" class="hidden">
+    <p>Thank you for your message! I will get back to you shortly.</p>
+  </div>
+  
   <header id="header">
     <img src="images/logo.jpg" alt="Logo of a dog's head">
     <h2>My Portfolio</h2>
@@ -73,7 +77,7 @@
 
     <section id="contact">
       <h2>Contact</h2>
-
+      
       <form action="https://api.web3forms.com/submit" id="form" method="POST">
 
         <!-- Replace with your Access Key -->
@@ -125,10 +129,14 @@
       document.getElementById("form").reset();
       // check url parameters to see if the form was submitted
       const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.get('redirect') === 'true') {
-        alert('Thank you!');
+      // if the form was submitted, show a success message
+      const successMessage = document.getElementById("success-message")
+      if (urlParams.get("redirect") === "true") {
+          successMessage.classList.remove("hidden");
+          setTimeout(function () {
+            successMessage.classList.add("hidden");
+          }, 3000);
       }
-
     };
   </script>
 </body>
