@@ -125,13 +125,14 @@
   <script src="https://web3forms.com/client/script.js" async defer></script>
   <script>
     window.onload = function () {
-      // Reset the form fields when the page loads
-      document.getElementById("form").reset();
       // check url parameters to see if the form was submitted
       const urlParams = new URLSearchParams(window.location.search);
-      // if the form was submitted, show a success message
-      const successMessage = document.getElementById("success-message")
+      // if the form was submitted, reset the form and show a success message
       if (urlParams.get("redirect") === "true") {
+          const successMessage = document.getElementById("success-message")
+          // reset the form fields
+          document.getElementById("form").reset();
+          // hide the success message after 3 seconds
           successMessage.classList.remove("hidden");
           setTimeout(function () {
             successMessage.classList.add("hidden");
