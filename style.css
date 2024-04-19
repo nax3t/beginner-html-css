@@ -15,6 +15,10 @@ h1, h2, p {
   margin: 50px 0;
 }
 
+.hidden {
+  opacity: 0;
+}
+
 /* HEADER AND NAVIGATION SECTIONS */
 #header {
   font-size: 16px;
@@ -102,6 +106,22 @@ nav li a:hover {
 }
 
 /* CONTACT SECTION */
+#success-message {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  transition: opacity 0.5s ease-out;
+}
+
+#success-message > p {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
 input:not([type="submit"]), textarea{
   width: 400px;
   padding: 12px 20px;
