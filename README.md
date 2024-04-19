@@ -46,6 +46,8 @@
 
 
 #### Lesson 5
+- Watch full lecture [here](#)
+- View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_5)
 - Add dynamic form with [web3forms](https://web3forms.com/)
 - Customize form redirect
 - Add custom success message with JavaScript
