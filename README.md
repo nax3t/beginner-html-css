@@ -30,7 +30,7 @@
 - Turn nav menu into a horizontal navigation bar
 
 #### Lesson 4
-- Watch full lecture [here](#)
+- Watch full lecture [here](https://www.youtube.com/watch?v=AjVJtPeUKQs)
 - View solution code [here](https://github.com/nax3t/beginners-html-css-js/tree/lesson_4)
 - Image updates
   - Create images folder
@@ -43,3 +43,10 @@
 - Add textarea for message body
 - Add cards to portfolio section
 - Update nav padding-right to align text with the rest of the page
+
+
+#### Lesson 5
+- Add dynamic form with [web3forms](https://web3forms.com/)
+- Customize form redirect
+- Add custom success message with JavaScript
+- Deploy website with [GitHub Pages](https://pages.github.com/)
