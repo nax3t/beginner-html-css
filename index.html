@@ -78,7 +78,8 @@
 
         <!-- Replace with your Access Key -->
         <input type="hidden" name="access_key" value="830f2301-3c60-405a-bc4b-dd7d7f5023ae">
-
+        <!-- Custom redirect URL -->
+        <input type="hidden" name="redirect" value="https://nax3t.github.io?redirect=true">
         <!-- Form Inputs. Each input must have a name="" attribute -->
         <p>
           <label for="name">Name:</label>
@@ -95,7 +96,7 @@
           <label for="message">Message:</label>
           <textarea name="message" id="message" cols="50" rows="5" required></textarea>
         </p>
-        
+
         <!-- hCaptcha Spam Protection -->
         <div class="h-captcha" data-captcha="true"></div>
 
@@ -118,6 +119,18 @@
 
   <!-- Required for hCaptcha -->
   <script src="https://web3forms.com/client/script.js" async defer></script>
+  <script>
+    window.onload = function () {
+      // Reset the form fields when the page loads
+      document.getElementById("form").reset();
+      // check url parameters to see if the form was submitted
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('redirect') === 'true') {
+        alert('Thank you!');
+      }
+
+    };
+  </script>
 </body>
 
 </html>
