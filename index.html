@@ -27,12 +27,18 @@
 
     <section id="about">
       <h2>About Me</h2>
-      
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae, molestiae eveniet qui fugiat officiis pariatur aliquid, vel quia autem vero quaerat omnis impedit repellendus.</p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae, molestiae eveniet qui fugiat officiis pariatur aliquid, vel quia autem vero quaerat omnis impedit repellendus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae,
+        molestiae eveniet qui fugiat officiis pariatur aliquid, vel quia autem vero quaerat omnis impedit repellendus.
+      </p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae, molestiae eveniet qui fugiat officiis pariatur aliquid, vel quia autem vero quaerat omnis impedit repellendus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae,
+        molestiae eveniet qui fugiat officiis pariatur aliquid, vel quia autem vero quaerat omnis impedit repellendus.
+      </p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae,
+        molestiae eveniet qui fugiat officiis pariatur aliquid, vel quia autem vero quaerat omnis impedit repellendus.
+      </p>
     </section>
 
     <section id="portfolio">
@@ -42,21 +48,24 @@
         <div class="card">
           <img src="images/card1.jpg" alt="Beach photo">
           <p class="card-title">Beach Project</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae, molestiae eveniet...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae,
+            molestiae eveniet...</p>
           <a href="#">View Project</a>
         </div>
 
         <div class="card">
           <img src="images/card2.jpg" alt="Dog fetching stick in ocean">
           <p class="card-title">Dog Project</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae, molestiae eveniet...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae,
+            molestiae eveniet...</p>
           <a href="#">View Project</a>
         </div>
 
         <div class="card">
           <img src="images/card3.jpg" alt="Mountains in background of lake">
           <p class="card-title">Lake Project</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae, molestiae eveniet...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor nemo est mollitia, quibusdam beatae,
+            molestiae eveniet...</p>
           <a href="#">View Project</a>
         </div>
       </div>
@@ -65,15 +74,20 @@
     <section id="contact">
       <h2>Contact</h2>
 
-      <form action="#" method="POST">
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="830f2301-3c60-405a-bc4b-dd7d7f5023ae" value="830f2301-3c60-405a-bc4b-dd7d7f5023ae">
+
+        <!-- Form Inputs. Each input must have a name="" attribute -->
         <p>
           <label for="name">Name:</label>
-          <input type="text" id="name" required>
+          <input type="text" id="name" name="name" required>
         </p>
 
         <p>
           <label>Email:
-            <input type="email" required>
+            <input type="email" name="email" required>
           </label>
         </p>
 
@@ -85,6 +99,12 @@
         <p>
           <input type="submit">
         </p>
+
+        <!-- hCaptcha Spam Protection -->
+        <div class="h-captcha" data-captcha="true"></div>
+
+        <button type="submit">Submit Form</button>
+
       </form>
     </section>
   </main>
@@ -97,6 +117,9 @@
       </ul>
     </nav>
   </footer>
+
+  <!-- Required for hCaptcha -->
+  <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 
 </html>
